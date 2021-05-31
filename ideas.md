@@ -3,3 +3,4 @@
 # Features
 
 - Posts
+- Messaging
