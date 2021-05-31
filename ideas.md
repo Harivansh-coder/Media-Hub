@@ -4,3 +4,4 @@
 
 - Posts
 - Messaging
+- Text
