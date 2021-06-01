@@ -5,3 +5,4 @@
 - Posts
 - Messaging
 - Text
+- notifications
