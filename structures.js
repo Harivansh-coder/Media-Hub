@@ -27,6 +27,7 @@ const loginProviders = {
   google,
   facebook,
   apple,
+  twitter,
 };
 
 // All the likes will be stored under a single likes collection just like post
