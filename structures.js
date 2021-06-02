@@ -10,6 +10,8 @@ const user = {
 // posts/{post2}
 const post = {
   likeCount: Number,
+  DislikeCount: Number,
+  time : Numbers,//eg 5 hours ago
   commentCount: Number,
   title: String,
   description: String,
@@ -28,6 +30,7 @@ const loginProviders = {
   facebook,
   apple,
   twitter,
+  github,
 };
 
 // All the likes will be stored under a single likes collection just like post
