@@ -1,5 +1,5 @@
 const user = {
-  id: Number; // We need id too, to link with the user for easy working on our side. It will not be visible to the user. 
+  id: String; // We need id too, to link with the user for easy working on our side. It will not be visible to the user. 
   username: String,
   email: String,
   password: String, // hashed
@@ -16,7 +16,6 @@ const post = {
   description: String,
   user: user,
   image: String, // Not mandatory and this will only store the url of the stored image
-  userProfileImage: String,
 };
 
 const pages = {
