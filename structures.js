@@ -24,4 +24,5 @@ const loginProviders = {
   google,
   facebook,
   apple,
+  twitter,
 };
