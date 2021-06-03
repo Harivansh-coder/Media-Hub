@@ -1,5 +1,5 @@
 const user = {
-  id: String; // We need id too, to link with the user for easy working on our side. It will not be visible to the user. 
+  id: String, // We need id too, to link with the user for easy working on our side. It will not be visible to the user. 
   username: String,
   email: String,
   password: String, // hashed
