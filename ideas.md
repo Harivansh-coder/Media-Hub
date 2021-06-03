@@ -3,3 +3,6 @@
 # Features
 
 - Posts
+- Messaging
+- Text
+- notifications
