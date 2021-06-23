@@ -1,34 +1,53 @@
 import Image from "next/image";
 import { SearchIcon } from "@heroicons/react/outline";
+import Avatar from "./Avatar";
 const Header = () => {
   return (
-    <header className="flex bg-blue-500 items-center justify-between p-2 space-x-5 px-4">
-      {/* Brand or Logo */}
-      <div className="p-2">
-        <h1 className="text-base font-bold xl:text-xl text-white whitespace-nowrap space-x-2">
-          Media Hub
-        </h1>
-      </div>
-
-      {/* SearchBar */}
-
-      <div className="hidden sm:flex items-center space-x-1 bg-white rounded-md p-2 shadow-lg flex-grow max-w-lg">
-        <SearchIcon className="h-5" />
-        <input
-          type="text"
-          className="h-full w-full focus:outline-none px-2 flex-grow flex-shrink"
+    <header className="flex bg-[#282828] items-center justify-between space-x-5 h-16">
+      {/* Logo */}
+      {/* Left */}
+      <div
+        style={{
+          flex: 0.2,
+        }}
+        className="flex h-full items-center bg-[#1b1b1b] p-2 px-4"
+      >
+        <img
+          className="w-32  object-contain"
+          src="assests/logo-light.png"
+          alt="logo"
         />
       </div>
 
-      {/* Profile Image */}
-      <div>
-        <Image
-          className="rounded-full"
-          src="https://hackerman-links.vercel.app/jso"
-          height={40}
-          width={40}
-          objectFit="cover"
-          layout="intrinsic"
+      {/* Middle */}
+      <div
+        className="text-white flex items-center p-2 px-4 justify-between"
+        style={{
+          flex: 0.6,
+        }}
+      >
+        <h1 className="">Feed</h1>
+        <div className="flex space-x-2">
+          <div>
+            <Avatar alt="logo" className="bg-red-500" />
+          </div>
+          <button className="btn"> Create Blend</button>
+        </div>
+      </div>
+
+      {/* Right */}
+      <div
+        className=" flex h-full items-center p-2 px-4 bg-[#1b1b1b] text-white"
+        style={{
+          flex: 0.2,
+        }}
+      >
+        <SearchIcon className="h-7 text-gray-300" />
+
+        <input
+          className="bg-transparent text-sm ml-2 outline-none p-2 w-full"
+          type="text"
+          placeholder="Search Topics"
         />
       </div>
     </header>

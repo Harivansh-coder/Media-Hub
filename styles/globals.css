@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .btn {
+    @apply bg-[#9CF3FF] rounded-full px-6 p-2 font-bold shadow-lg text-white focus:outline-none;
+  }
+}
