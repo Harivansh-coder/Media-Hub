@@ -1,6 +1,4 @@
-https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
-
-https://img.shields.io/badge/Yarn-2C8EBB?style=for-the-badge&logo=yarn&logoColor=white
+![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
 
 ## Media-Hub
 Media-Hub is an opensource platform, where user(Developers) can share media-files (Like an coding-issue, need-help related to programming, memes, etc) among other users (media-hub users).
