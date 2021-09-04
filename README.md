@@ -7,4 +7,3 @@ Media-Hub is an opensource platform, where user(Devlopers) can share media-files
 # Motive
 To develop an open-source platform like twitter specially for developers to collaborate and have fun.
 
-# Features
