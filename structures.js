@@ -1,8 +1,9 @@
 const user = {
+  id: String, // We need id too, to link with the user for easy working on our side. It will not be visible to the user. 
   username: String,
   email: String,
   password: String, // hashed
-  image: String, // ? do we need this
+  profileImage: String, // ? do we need this
 };
 
 // All the post will be stored under a posts collection something like this
@@ -10,6 +11,8 @@ const user = {
 // posts/{post2}
 const post = {
   likeCount: Number,
+  DislikeCount: Number,
+  time : Numbers,//eg 5 hours ago
   commentCount: Number,
   title: String,
   description: String,
@@ -27,6 +30,8 @@ const loginProviders = {
   google,
   facebook,
   apple,
+  twitter,
+  github,
 };
 
 // All the likes will be stored under a single likes collection just like post
