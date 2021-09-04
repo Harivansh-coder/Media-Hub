@@ -7,3 +7,7 @@ Media-Hub is an opensource platform, where user(Devlopers) can share media-files
 # Motive
 To develop an open-source platform like twitter specially for developers to collaborate and have fun.
 
+## Contributing [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/dwyl/esta/issues)
+
+
+
