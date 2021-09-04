@@ -1,5 +1,9 @@
+https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
+
+https://img.shields.io/badge/Yarn-2C8EBB?style=for-the-badge&logo=yarn&logoColor=white
+
 ## Media-Hub
-Media-Hub is an opensource platform, where user(Devlopers) can share media-files (Like an coding-issue, need-help related to programming, memes, etc ) among other users(media-hub users).
+Media-Hub is an opensource platform, where user(Developers) can share media-files (Like an coding-issue, need-help related to programming, memes, etc) among other users (media-hub users).
 
 ## Motive
 To develop an open-source platform like twitter specially for developers to collaborate and have fun.</br></br>
@@ -40,4 +44,3 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
-## Contributing [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/dwyl/esta/issues)
