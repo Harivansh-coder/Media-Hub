@@ -1,8 +1,8 @@
 ## Media-Hub
-Media-Hub is an opensource platform, where user(Devlopers) can share media-files (Like an coding-issue, need-help related to programming, memes, etc )</br> among other users(media-hub users).
+Media-Hub is an opensource platform, where user(Devlopers) can share media-files (Like an coding-issue, need-help related to programming, memes, etc ) among other users(media-hub users).
 
 ## Motive
-To develop an open-source platform like twitter specially for developers to collaborate and have fun.
+To develop an open-source platform like twitter specially for developers to collaborate and have fun.</br></br>
 
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
